@@ -1,0 +1,7 @@
+production:
+    driver: postgres
+    open: $DATABASE_URL
+
+development:
+    driver: postgres
+    open: postgres://tbruyelle@localhost:5432/go-bootstrap?sslmode=disable
